@@ -1,0 +1,37 @@
+# Python virtual environment
+.venv/
+
+# Python caches
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Python package metadata
+*.egg-info/
+
+# Test / lint caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Secrets
+.env
+.env.*
+
+# PaperFlow data workspace
+workspace/
+
+# Smoke / benchmark files
+_smoke_test/
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store!.env.example
+!.env.example
