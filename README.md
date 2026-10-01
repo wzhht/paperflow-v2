@@ -1,5 +1,7 @@
 # PaperFlow V2
 
+**中文** | [English](README_EN.md)
+
 PaperFlow V2 是一个面向学术论文的本地处理流水线：根据 DOI 选择出版社路线，优先获取结构化全文；必要时使用合法获得的 PDF，通过外部 MinerU 解析；最后输出适合后续 LLM 阅读、检索和分析的 Markdown，并执行保守的科学内容 QA。
 
 本项目的设计目标不是“把 Markdown 变漂亮”，而是尽量保证：
